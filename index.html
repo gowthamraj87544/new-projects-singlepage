@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <div class="container">
+<div class="navbar">
+    <img src="/image/g_logo.png" alt="logo" class="logo">
+    <nav>
+        <ul id="menuList">
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SERVICES</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+    </nav>
+    <img src="/image/g_logo.png" alt="menu" class="menu-icon" onclick="togglemenu()">
+</div>
+<div class="row">
+    <div class="col-1">
+        <h2>Hair is in the Hands of <br> Your Stylist.</h2>
+        <h3>Life isn't <span style="color:red ;">perfect</span>  but your <span style="color: yellowgreen;" >hair</span>  can be.</h3>
+        <p>(Affordable price)</p>
+        <h4>$20</h4>
+        <button type="button"> Book Now</button>
+    </div>
+    <div class="col-2">
+<img src="/image/hair_style_image.png" alt="hair style" class="hair_image" style="width:500px;">
+<div class="contact">
+    <form  onsubmit="event.preventDefault();validate()">
+    <h2>Contact Form</h2>
+    <input type="text" placeholder="username" class="input-field" required>
+    <input type="email" name="mail" id="" placeholder="@sample.com" class="input-field" required>
+    <input type="number" name="number" id="" placeholder="+91-123-223-25" class="input-field" required>
+    <input type="date" class="input-field">
+    <textarea name="" id="" cols="20" rows="5" class="input-field textarea-field" placeholder="your message" required></textarea>
+    <p id="error"></p>
+<button>Submit</button>
+</form>
+
+</div>
+<div class="color_box"></div>
+    </div>
+</div>
+<div class="social-links">
+    <img src="/image/Facebook-Logo.png" alt="FaceBook">
+    <img src="/image/Instagram.png" alt="Instagram">
+    <img src="/image/Whatsapp.png" alt="WhatsApp">
+</div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
